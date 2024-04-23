@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 import "./TopNavigation.css";
 import logo from "/assets/logo/logo-desktop.svg";
-import searchIcon from "/assets/icons/search.svg";
 import { Button } from "../../styles/button/Button";
+import { SearchIcon } from "../../../assets/Icons";
 
 export const TopNavigation = () => {
   return (
@@ -16,7 +16,9 @@ export const TopNavigation = () => {
             <NavLink to="/">about us</NavLink>
           </li>
         </ul>
-        <img src={searchIcon} alt="Search Bar Icon" className="search-bar" />
+        <form className="search-bar">
+          <SearchIcon />
+        </form>
         <Button
           classNames={
             "log_in-btn bg-crimson-light active:bg-plum-light hover:bg-terracotta  text-[25px]"

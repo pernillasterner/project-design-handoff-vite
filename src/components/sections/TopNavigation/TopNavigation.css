@@ -7,3 +7,7 @@
   padding: 0 10px;
   text-transform: uppercase;
 }
+
+.top-navigation li a:hover {
+  color: grey;
+}
