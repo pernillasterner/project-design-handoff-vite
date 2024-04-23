@@ -6,22 +6,26 @@ import { SearchIcon, BurgerIcon } from "../../assets/Icons";
 export const TopNavigation = () => {
   return (
     <header className="top-navigation flex justify-between items-center px-20 md:px-66 py-10 md:py-20 lg:bg-cyan-500 fixed w-full max-w-1440">
-      <img src={logo} alt="Crossfit Mamas Logo" className="w-10 md:w-auto" />
+      <img
+        src={logo}
+        alt="Crossfit Mamas Logo"
+        className="md:w-20 w-12 sm:w-16"
+      />
       <nav className="navbar items-center px-12 flex">
         <ul className="hidden md:flex">
           <li>
-            <NavLink className="px-20 text-white hover:text-grey" to="/">
+            <NavLink className="px-10 text-white hover:text-grey" to="/">
               getting started
             </NavLink>
-            <NavLink className="px-20 text-white hover:text-grey" to="/">
+            <NavLink className="px-10 text-white hover:text-grey" to="/">
               classes
             </NavLink>
-            <NavLink className="px-20 text-white hover:text-grey" to="/">
+            <NavLink className="px-10 text-white hover:text-grey" to="/">
               about us
             </NavLink>
           </li>
         </ul>
-        <div className="mx-10 hidden md:flex">
+        <div className="mx-10 hidden sm:flex">
           <SearchIcon />
         </div>
         <Button

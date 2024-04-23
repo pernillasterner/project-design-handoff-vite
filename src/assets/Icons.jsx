@@ -24,3 +24,37 @@ export const SearchIcon = () => {
     </svg>
   );
 };
+
+export const BurgerIcon = () => {
+  return (
+    <svg
+      width="39"
+      height="39"
+      viewBox="0 0 39 39"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M4.81445 19.333H33.701"
+        stroke="white"
+        strokeWidth="2.48486"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4.81445 9.7041H33.701"
+        stroke="white"
+        strokeWidth="2.48486"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4.81445 28.9614H33.701"
+        stroke="white"
+        strokeWidth="2.48486"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+};
