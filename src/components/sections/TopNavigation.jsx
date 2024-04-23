@@ -1,14 +1,14 @@
 import { NavLink } from "react-router-dom";
 import logo from "/assets/logo/logo-desktop.svg";
 import { Button } from "../styles/button/Button";
-import { SearchIcon } from "../../assets/Icons";
+import { SearchIcon, BurgerIcon } from "../../assets/Icons";
 
 export const TopNavigation = () => {
   return (
-    <header className="top-navigation flex justify-between items-center px-66 py-20 lg:bg-cyan-500 fixed w-full">
-      <img src={logo} alt="Crossfit Mamas Logo" />
-      <nav className="navbar flex items-center px-12">
-        <ul>
+    <header className="top-navigation flex justify-between items-center px-20 md:px-66 py-10 md:py-20 lg:bg-cyan-500 fixed w-full max-w-1440">
+      <img src={logo} alt="Crossfit Mamas Logo" className="w-10 md:w-auto" />
+      <nav className="navbar items-center px-12 flex">
+        <ul className="hidden md:flex">
           <li>
             <NavLink className="px-20 text-white hover:text-grey" to="/">
               getting started
@@ -21,15 +21,18 @@ export const TopNavigation = () => {
             </NavLink>
           </li>
         </ul>
-        <form className="mx-10 px-4">
+        <div className="mx-10 hidden md:flex">
           <SearchIcon />
-        </form>
+        </div>
         <Button
           className={
-            "log_in-btn bg-crimson-light active:bg-plum-light hover:bg-terracotta  text-[25px]"
+            "log_in-btn bg-crimson-light active:bg-plum-light hover:bg-terracotta items-end justify-center text-[25px] hidden md:flex"
           }
           label={"log in"}
         />
+        <div className="md:hidden">
+          <BurgerIcon />
+        </div>
       </nav>
     </header>
   );
