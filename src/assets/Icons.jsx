@@ -9,14 +9,14 @@ export const SearchIcon = () => {
     >
       <path
         d="M16.999 33.0752C25.8356 33.0752 32.999 25.9118 32.999 17.0752C32.999 8.23864 25.8356 1.0752 16.999 1.0752C8.16247 1.0752 0.999023 8.23864 0.999023 17.0752C0.999023 25.9118 8.16247 33.0752 16.999 33.0752Z"
-        stroke="black"
+        stroke="white"
         strokeWidth="1.69384"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
         d="M36.9988 37.075L28.2988 28.375"
-        stroke="black"
+        stroke="white"
         strokeWidth="1.69384"
         strokeLinecap="round"
         strokeLinejoin="round"
