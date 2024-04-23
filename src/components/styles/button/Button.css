@@ -1,0 +1,24 @@
+button {
+  font-family: "Bebas Neue", "Roboto";
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+.join-btn {
+  min-width: 121px;
+  padding: 10px;
+}
+
+.learn_more-btn {
+  /* width: 148px; */
+  padding: 10.42px;
+  min-height: 31px;
+}
+
+.log_in-btn {
+  width: 130px;
+  height: 40px;
+}

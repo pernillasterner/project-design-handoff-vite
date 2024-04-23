@@ -1,0 +1,9 @@
+.top-navigation .search-bar {
+  padding: 0 20px;
+  margin: 0 40px;
+}
+
+.top-navigation li a {
+  padding: 0 10px;
+  text-transform: uppercase;
+}
