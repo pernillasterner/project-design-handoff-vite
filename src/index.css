@@ -87,3 +87,12 @@ a {
   width: 100%;
   display: block;
 } */
+
+button {
+  font-family: "Bebas Neue", "Roboto";
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 50px;
+  font-weight: 700;
+}
