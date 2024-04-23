@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
-import { TopNavigation } from "./components/TopNavigation/TopNavigation";
-import { Hero } from "./components/Hero/Hero";
+import { TopNavigation } from "./components/sections/TopNavigation/TopNavigation";
+import { Hero } from "./components/sections/Hero/Hero";
 
 export const App = () => {
   return (
