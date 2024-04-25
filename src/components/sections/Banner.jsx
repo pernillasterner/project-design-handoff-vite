@@ -1,4 +1,4 @@
-import { Heading } from "../styles/Heading";
+import { Heading } from "../typography/Heading";
 
 export const Banner = () => {
   const testimonalText = [
@@ -14,7 +14,7 @@ export const Banner = () => {
           key={`heading_${index}`}
           className={`${index === 1 ? "my-4 md:my-0 px-10 md:px-40" : ""}`}
         >
-          <Heading heading={"h2"} text={text} />
+          <Heading heading={"h2"} text={`“${text}“`} />
         </div>
       ))}
     </section>
