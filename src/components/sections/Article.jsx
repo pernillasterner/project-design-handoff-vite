@@ -1,3 +1,4 @@
+import { Image } from "../styles/Image";
 import { Heading } from "../typography/Heading";
 import { Paragraph } from "../typography/Paragraph";
 
@@ -31,8 +32,7 @@ export const Article = () => {
           className={`flex-1 ${index === 1 ? "mx-4" : ""}`}
           style={{ minWidth: "189px" }}
         >
-          <img src={article.image} alt={article.src} />
-
+          <Image src={article.image} alt={article.src} />
           <Heading
             heading={"h2"}
             text={article.heading}
