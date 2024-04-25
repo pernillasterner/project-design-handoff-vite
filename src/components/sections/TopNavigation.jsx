@@ -1,5 +1,5 @@
 import logo from "/assets/logo/logo-desktop.svg";
-import { Button } from "../styles/button/Button";
+import { Button } from "../styles/Button";
 import { SearchIcon, BurgerIcon } from "../../assets/Icons";
 import { NavLinks } from "../elements/NavLinks";
 
@@ -28,11 +28,10 @@ export const TopNavigation = () => {
           <SearchIcon />
         </div>
         <Button
-          className={
-            "log_in-btn bg-crimson-light active:bg-plum-light hover:bg-terracotta items-end justify-center text-[25px] hidden md:flex"
-          }
+          className="log_in-btn bg-crimson-light active:bg-plum-light hover:bg-terracotta items-center justify-center text-[25px] hidden md:flex w-32 h-10"
           label={"log in"}
         />
+
         <div className="md:hidden">
           <BurgerIcon />
         </div>
